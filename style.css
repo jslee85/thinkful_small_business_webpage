@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* { 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #F2F2F2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container {
+  margin-bottom: 50px;
+}
+
+#footerbar {
+	width: 940px;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -470px;
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.headernavlink {
+	display: inline-block;
+	text-decoration: none;
+	color: #C6BFB6;
+	font-size: 18px;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	vertical-align: middle;
+	margin-left: 28px;
+}
+
+.donatenavlink {
+	display: inline-block;
+	text-decoration: none;
+	color: #DF8A20;
+	font-size: 18px;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	vertical-align: middle;
+	margin-left: 28px;
+}
+
+.topbranding {
+	width: 100%;
+	height: 260px;
+	background-color: #C7E6F2;
+	padding-top: 20px;
+}
+
+.topnav {
+	width: 940px;
+	height: 50px;
+	background-color: white;
+	margin: 0px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.lefttopnav {
+	float: left;
+}
+
+.righttopnav {
+	float: right;
+}
+
+.logotype {
+	width: 108px;
+	height: 15px;
+	margin: auto 0px;
+}
+
+.logo {
+	width: 380px;
+	height: 180px;
+	margin: 0px auto;
+}
+
+.newslettercontainer {
+	width: 100%;
+	height: 60px;
+	background-color: #005575;
+}
+
+.newsletterform {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin: 0px auto;
+}
+
+.ctacontainer {
+	float: left;
+}
+
+.newslettercta {
+	color: #D3D3D3;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+.emailfieldcontainer {
+	float: left;
+	margin-left: 20px;
+	width: 300px;
+}
+
+.emailfield {
+	width: 100%;
+	border: 1px solid #003264;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 14px;
+}
+
+.montage {
+	width: 100%;
+}
+
+.mainbodycontent {
+	position: absolute;
+	margin-top: 65px;
+	margin-left: -470px;
+	left: 50%;
+	width: 940px;
+}
+
+.howtodonate {
+	width: 640px;
+	float: left;
+}
+
+.introparagraph {
+	color: #666666;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 140%;
+}
+
+.donatesteps {
+	font-size: 18px;
+	font-family: Georgia, Times, serif;
+	font-weight: bold;
+	color: #553512;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+.stepscopy {
+	margin-bottom: 30px;
+	font-size: 14px;
+	line-height: 140%;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666666;
+}
+
+.leftbodycolumn {
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+}
+
+.rightbodycolumn {
+	width: 300px;
+	float: right;
+	margin-top: 50px;
+}
+
+.rightrail {
+	display: inline-block;
+	float: right;
+	width: 220px;
+}
+
+.rightrailtitle {
+	color: #005575;
+	font-size: 18px;
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	margin-bottom: 20px;
+	margin-top: 12px;
+}
+
+.newswidget {
+	width: 220px;
+	background-color: #CCDDE3;
+	padding: 20px;
+}
+
+.newsitemdate {
+	display: inline-block;
+	color: #4D4D4D;
+	font-size: 12px;
+	font-family: Georgia, Times, serif;
+	margin-bottom: 6px;
+	line-height: 120%;
+}
+
+.newsleadin {
+	color: #005575;
+}
+
+.newsitem {
+	color: #4D4D4D;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 20px;
+	line-height: 130%;
+}
+
+.newswidget .newsitem:last-child {
+	margin-bottom: 10px;
+}
+
+.lionsclub {
+	width: 220px;
+	height: 185px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+.footernavlink {
+	display: inline-block;
+	text-decoration: none;
+	color: #666666;
+	font-size: 12px;
+	font-family: Georgia, Times, serif;
+	vertical-align: middle;
+	padding-right: 12px;
+	margin-right: 12px;
+	border-right: 1px solid #666666;
+}
+
+#footerbar .footernavlink:last-child {
+	margin-right: none;
+	border-right: none;
+}
+
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 30px;
+	color: #005575;
+	margin-bottom: 20px;
+	line-height: 120%;
+}
