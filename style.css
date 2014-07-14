@@ -66,7 +66,7 @@ table {
 	left: 50%;
 	margin-left: -470px;
 	background-color: white;
-	padding: 17px 30px;
+	padding: 16px 30px;
 }
 
 .headernavlink {
@@ -103,7 +103,7 @@ table {
 	height: 50px;
 	background-color: white;
 	margin: 0px auto;
-	padding: 17px 30px;
+	padding: 16px 30px;
 }
 
 .lefttopnav {
@@ -130,7 +130,7 @@ table {
 	width: 100%;
 	height: 60px;
 	background-color: #005575;
-	padding: 13px 0px;
+	padding: 14px 0px;
 }
 
 .newsletterform {
@@ -146,6 +146,7 @@ table {
 
 .ctacontainer {
 	float: left;
+	padding-top: 6px;
 }
 
 .newslettercta {
@@ -164,11 +165,34 @@ table {
 .emailfield {
 	width: 100%;
 	border: 1px solid #003264;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 	font-size: 14px;
+}
+
+.emailfield:hover {
+	border: 1px solid rgba(0,0,0,.3);
+}
+
+.emailfield:focus {
+	border: 1px solid #4285f4;
+}
+
+.submitbutton {
+	background-color: #DF8A20;
+	padding: 4px 8px;
+	margin-left: 20px;
+	border: 1px solid white;
+}
+
+.submitbuttontext {
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
 }
 
 .montage {
